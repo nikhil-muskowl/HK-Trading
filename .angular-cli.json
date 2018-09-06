@@ -19,9 +19,18 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
+        "../node_modules/bootstrap/dist/css/bootstrap.css",
+        "assets/css/style.blue.css",
+        "../node_modules/interactiveimagejs/dist/interactive-image.min.css",
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/jquery/dist/jquery.min.js",
+        "../node_modules/bootstrap/dist/js/bootstrap.js",
+        "../node_modules/wowjs/dist/wow.js",
+        "../node_modules/popper.js/dist/umd/popper.min.js",
+        "../node_modules/interactiveimagejs/dist/interactive-image.min.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
